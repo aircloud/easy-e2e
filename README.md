@@ -4,6 +4,8 @@
 
 ### 本地测试
 
+需要预先安装 docker 环境
+
 ```
 pnpm init
 pnpm test
