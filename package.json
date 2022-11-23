@@ -1,0 +1,23 @@
+{
+  "name": "easy-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1 pnpm install",
+    "build": "tsc --outDir dist",
+    "image": "pnpm run build && bash scripts/build.sh",
+    "test": "pnpm run image && bash scripts/test.sh"
+  },
+  "dependencies": {
+    "log4js": "6.3.0",
+    "puppeteer": "^13.5.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.9.3"
+  }
+}

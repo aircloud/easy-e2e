@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "allowJs": true,
+    "jsx": "react",
+    "module": "CommonJS",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "baseUrl": ".",
+    "declaration": true,
+  },
+  "include": [
+    "src"
+  ]
+}
